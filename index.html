@@ -128,7 +128,7 @@
             <p class="card-text">ダミーサイトです。<br />Vuejsで作成したWebアプリケーション</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#detail-1">詳細</button>
                 <button type="button" class="btn btn-sm btn-outline-secondary">依頼</button>
               </div>
               <small class="text-muted">2020/7/23</small>
@@ -144,7 +144,7 @@
             <p class="card-text">ダミーサイトです。<br />Pythonで開発したSNSサイト</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#detail-2">詳細</button>
                 <button type="button" class="btn btn-sm btn-outline-secondary">依頼</button>
               </div>
               <small class="text-muted">2020/7/23</small>
@@ -160,7 +160,7 @@
             <p class="card-text">ダミーです。<br />アパレル系のECサイト用の撮影。</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">詳細</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#detail-3">詳細</button>
                 <button type="button" class="btn btn-sm btn-outline-secondary">依頼</button>
               </div>
               <small class="text-muted">2020/7/23</small>
@@ -172,8 +172,81 @@
     </div>
 
   </div>
+  <div class="modal fade" id="detail-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">案件詳細1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-right">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">VuejsによるWebアプリケーション開発</li>
+            <li class="list-group-item">制作期間 : 2ヶ月〜</li>
+            <li class="list-group-item">費用 : 200万円~</li>
+            <li class="list-group-item">サポート期間 : 1年~</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="detail-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">案件詳細2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-right">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">PythonによるSNSサービス開発</li>
+            <li class="list-group-item">制作期間 : 3ヶ月〜</li>
+            <li class="list-group-item">費用 : 400万円~</li>
+            <li class="list-group-item">サポート期間 : 2年~</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="detail-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">案件詳細2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-right">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">アパレルECサイト向け撮影</li>
+            <li class="list-group-item">撮影日 : 1日〜</li>
+            <li class="list-group-item">費用(1日につき) : 20万円~</li>
+            <li class="list-group-item">編集後ファイルを納品</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
   
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
